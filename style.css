@@ -3,6 +3,7 @@ body{
     margin: 0;
 }
 .svg{
+    min-width: 2em;
     height: 2em;
     display: flex;
     justify-content: center;
@@ -23,20 +24,62 @@ header{
     padding: 20px;
     background-color: #eff6ff;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr 1fr ;
 }
 .content{
     padding: 20px
 }
-
+input{
+    border-radius: 25px;
+    border: none;
+    background-color: #dedede;
+}
 /*Main content*/
 .main-content{
     background-color: #dbeafe;
 }
 
 /*Main content Section 1*/
+input{
+    display: inline-block;
+}
 
+.search-bar{
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+}
+img.search-bar{
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+}
+
+.profile-searchbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-width: 100px;
+    justify-items: center;
+}
+
+/*Section 2*/
+img#section-2{
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+}
+.introduction p{
+    margin-bottom: 0;
+}
+.action-buttons{
+    grid-column: 2/3;
+}
+
+.profile-intro{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
 
 /*Side bar*/
 .side-bar{
