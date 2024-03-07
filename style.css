@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     min-width: 850px;
-    font-family: sans-serif;
+    font-family: Arial;
 }
 body::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
@@ -67,6 +67,11 @@ button{
     padding: 10px;
     border-radius: 15px;
 }
+.card.info, .card.title{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 div.card{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -84,7 +89,7 @@ div.card{
 }
 .announcement-section{
     padding: 30px;
-    background-color: #88919b;
+    background-color: #eff6ff;
     border-radius: 10px;
     display: grid;
     gap: 30px;
@@ -163,7 +168,7 @@ img#section-2{
 
 /*Side bar*/
 .side-bar{
-    background-color: #38bdf8;
+    background-color: #60a5fa;
     height: auto;
     padding: 20px;
     color: white;
